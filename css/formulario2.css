@@ -1,0 +1,54 @@
+/* amarelo - #EEC643
+preto nav - #0F0E0E
+preto background - #333333 */
+
+/* Fonte do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600&display=swap');
+
+/* Ícones do Bootstrap */
+@import url('https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css');
+
+/* Estilização da class card */
+.card {
+  margin: 20px 0px 20px 0px;
+  padding: 10px;
+  background-color: grey;
+  box-shadow: 3px 6px 8px 3px rgba(100, 100, 100, 0.5);
+}
+
+/* aumentamos a área da textarea com form control para não gerar scroll quando digitar a mensagem */
+textarea.form-control {
+  height: 90px;
+  resize: none;
+}
+cep,
+cpf {
+  resize: none;
+}
+
+form,
+.alert {
+  margin-bottom: 0;
+}
+
+/* para retirar as setinhas do campo number, como cpf e cep */
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* .dropdown {
+  justify-content: space-around;
+  margin-inline: 50px;
+  padding-inline: 10px;
+} */
+
+.zoom{
+  cursor: pointer;
+}
+
+/*REDIMENSIONAMENTO DOS ICONES SOCIAIS DO FOOTER*/
+.icons1 .bi{
+  font-size: 30px;
+}

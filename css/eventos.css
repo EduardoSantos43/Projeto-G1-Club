@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+ * {
+    padding: 0;
+    margin: 0;
+    font-family: 'Cairo', Arial, Helvetica, sans-serif;
+}
+
+
+:root {
+    --c-first: #0F0E0E;
+    --c--second: #333333;
+    --c--third: #EEC643;
+}
+
+.p1{
+    font-family: 'Abril Fatface', cursive;
+}
+
+.zoom{
+    cursor: pointer;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    font-size: 18px;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #EEC643;
+}
+
+.icons1 .bi {
+    font-size: 30px;
+}
+
+/* page planos */
+ .fundo {
+    height: 75vh;
+    background-image: url("../img/image\ 26.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.container-fundo {
+    height: 100%;
+}
+
+.container-fundo .p1  {
+    font-size: 2.5em;
+}
+.container-fundo .p2{
+    font-size: 1.2em;
+}
+.p3{
+    font-size: 1.2em;
+   
+}
+.our-h2{
+    font-family: 'Abril Fatface', cursive;
+
+}
+
+.btn-pacotes {
+    margin-top: 20px;
+    text-decoration: none;
+    background-color: var(--c--third);
+    padding: 18px;
+    border-radius: 5px;
+    color: var(--c-first);
+    font-weight: bolder;
+    font-size: 1.2em;
+}
+
+.btn-pacotes:hover {
+    color: var(--c-first);
+}
+
+.container-parte2 {
+    height: 45vh;
+}
+
+.paragrafo {
+    width: 75%;
+}
+
+.linha {
+    height: 50vh;
+
+}
+
+.bg-1 {
+    background-image: url("../img/aniversario.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.bg-2 {
+    background-image: url("../img/casamento.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.bg-3 {
+    background-image: url("../img/festatematica.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.bg-4 {
+    background-image: url("../img/formatura.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bg-cor {
+    background-image: url("../img/Rectangle\ 47.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.pacote {
+    height: 100%;
+}
+
+.pacote p {
+    margin-top: 15px;
+    width: 60%;
+}
+
+.agendamento {
+    height: 50vh;
+}
+
+.agendamento p {
+    width: 50%;
+}
+
+.btn-agend {
+    border: none;
+    background-color: var(--c--third);
+    padding: 18px;
+    border-radius: 5px;
+}
+
+.copy{
+    font-size: 1em;
+}
+
+/*REDIMENSIONAMENTO DOS ICONES SOCIAIS DO FOOTER*/
+.icons1 .bi{
+    font-size: 30px;
+}
+
+@media(max-width:580px) {
+    .fundo {
+        height: 60vh;
+    }
+    .container-fundo .p1 {
+        padding: 6px;
+        font-size: 1.3em;
+    }
+    .container-fundo .p2 {
+
+        font-size: 0.8em;
+    }
+
+    .btn-pacotes {
+        padding: 15px;
+        font-size: 0.8em;
+
+    }
+
+    .container-parte2 {
+        height: 55vh;
+    }
+
+    .paragrafo {
+        width: 90%;
+    }
+
+    .pacote p {
+        margin-top: 2px;
+        font-size: 0.7em;
+        padding: 10px;
+        width: 100%;
+    }
+
+    .pacote h1 {
+        font-size: 1em;
+    }
+
+    .bg-1,
+    .bg-2,
+    .bg-3,
+    .bg4 {
+        background-position: center;
+    }
+
+    .linha{
+        height: 30vh;
+
+    } 
+
+    .agendamento p {
+        width: 90%;
+    }
+
+    .btn-agend {
+        padding: 12px;
+        border-radius: 5px;
+    }
+    .copy{
+        font-size:0.6em;
+    }
+    .text-footer{
+        font-size: 0.8em;
+    }
+    .p3{
+        font-size: 1em;
+        text-align: justify;
+    }
+   
+
+   
+
+}
+
+@media(min-width:580px) and (max-width:750px) {
+    .container-fundo .p1 {
+
+        font-size: 1.8em;
+    }
+    .container-fundo .p2 {
+
+        font-size: 1em;
+    }
+
+    .pacote p {
+        margin-top: 2px;
+        font-size: 1em;
+        padding: 10px;
+        width: 90%;
+    }
+
+    .pacote h1 {
+        font-size: 1.5em;
+    }
+
+    .bg-1,
+    .bg-2,
+    .bg-3,
+    .bg4 {
+        background-position: center;
+    }
+
+} 

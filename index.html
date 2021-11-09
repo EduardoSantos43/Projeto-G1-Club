@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!--Ícones Bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css">
+    <!--CSS Externo-->
+    <!-- <link rel="stylesheet" href="css/style.css"> -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl/owl.theme.default.min.css">
+
+    <!--Fontes do Google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2? família=Cairo:wght@300;400;600&display=swap" rel="stylesheet">
+    <!--Ícnone da barra de navegação-->
+    <link rel="shortcut icon" type="/imagex/png" href="img/icon.png">
+    <title>G1 Club</title>
+</head>
+
+<body>
+    <!--INÍCIO DO NAVBAR-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><img src="img/logo3.png" ></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active acessibilidade" href="index.html">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active acessibilidade" href="eventos.html">Eventos</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active acessibilidade" href="#" id="navbarDropdown"
+                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Cardápio
+                        </a>
+                        <ul class="dropdown-menu bg-dark acessibilidade" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item text-warning" href="cardapio.html#nacional">Buffet Nacional</a></li>
+                            <li><a class="dropdown-item text-warning" href="cardapio.html#europeu">Buffet Mediterrâneo</a></li>
+                            <li><a class="dropdown-item text-warning" href="cardapio.html#bebidas">Bebidas</a></li>
+                        </ul </li> <li class="nav-item">
+                        <a class="nav-link active acessibilidade" href="#localizacao">Localização</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active acessibilidade" href="formulario.html">Agende seu Evento</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="d-flex">
+                <!--INÍCIO DOS ÍCONES ACESSIBILIDADE-->
+                <span class="text-white fs-4 text-warning zoom" onclick="fonte('a')"><i
+                        class="bi bi-zoom-in"></i></span>
+                <span class="text-white fs-4 zoom" onclick="fonte('d')"><i class="bi bi-zoom-out"></i></span>
+                <!--FIM DOS ÍCONES ACESSIBILIDADE-->
+            </div>
+        </div>
+    </nav>
+    <!--FIM DO NAVBAR-->
+
+    <!-- BANNER INICIAL -->
+    <section class="start-banner">
+        <div class="titleAndText-banner">
+            <h3 class="mb-4">SEU EVENTO EM NOSSA CASA</h3>
+            <p class=" acessibilidade">O G1 Club nasceu com o propósito de superar expectativas e realizar sonhos, e, a cada ano que passa, nós
+                oferecemos um serviço ainda mais especial, buscando sempre novidades e se tornando a empresa preparada
+                para realizar qualquer tipo de evento.</p>
+        </div>
+        <div class="buttons-banner mt-3">
+            <button type="button">Quero Agendar Meu Evento</button>
+            <button type="button">Saiba Mais Sobre os Eventos</button>
+        </div>
+    </section>
+
+    <!-- Nosso espaço -->
+    <section class="our-space">
+        <div class="container-sm our-space2">
+            <div class="container-parte2 d-flex flex-column align-items-center justify-content-center">
+                <h2 class="h2-our text-uppercase">Nosso Espaço</h2>
+                <p class="mt-4  acessibilidade">Para momentos inesquecíveis, e para surpreender e garantir a satisfação
+                    oferecemos
+                    um serviço de qualidade. Com salões amplos e elegantes, a o G1 Club é o local ideal para a
+                    realização de
+                    Casamentos, Formaturas, Aniversários, Confraternizações e Eventos Corporativos. </p>
+            </div>
+    </section>
+
+    <!-- Vantagens de contratar nosso espaço -->
+    <section class="vantagens">
+        <div class="container-md">
+
+            <!-- <div class="row text-center mb-5">
+                <h2>Vantagens da G1 Club</h2>
+            </div> -->
+
+            <div class="row">
+                <div class="col-md-12 col-lg-4 d-flex justify-content-center text-center mb-5">
+                    <div class="card card-vt" style="width: 20rem;">
+                        <img src="img/img5.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Equipe Profissional</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-12 col-lg-4 d-flex justify-content-center text-center mb-5">
+                    <div class="card card-vt" style="width: 20rem;">
+                        <img src="img/img3.jpeg" height="210px" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Ambiente Climatizado</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-12 col-lg-4 d-flex justify-content-center text-center mb-5">
+                    <div class="card card-vt" style="width: 20rem;">
+                        <img src="img/img4.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Segurança</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Localização -->
+    <div class="text-local d-flex flex-column justify-content-end align-items-center">
+        <h2 class="text-center h2-our text-uppercase">Localização</h2>
+    </div>
+    <section class="bg-localização" id="localizacao">
+        <div class="espaçamento-localização">
+            <div class="container-fluid mb-5 text-white">
+
+                <div class="row">
+                    <div class="col-md-12 col-lg-6 d-flex justify-content-center align-items-center text-center">
+                        <!-- Formulario de localização -->
+                        <form class="needs-validation w-75" novalidate>
+                            <div>
+                                <h2 class="mb-5">Receba Nossas Promoções</h2>
+                            </div>
+                            <div class="row g-3">
+                                <div class="col-sm-6">
+                                    <!-- <label for="firstName" class="form-label">Nome</label> -->
+                                    <input type="text" class="form-control" id="firstName" placeholder="Nome" value=""
+                                        required>
+                                    <div class="invalid-feedback">
+                                        Digite um nome valido.
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-6">
+                                    <!-- <label for="lastName" class="form-label">Sobrenome</label> -->
+                                    <input type="text" class="form-control" id="lastName" placeholder="Sobrenome"
+                                        value="" required>
+                                    <div class="invalid-feedback">
+                                        Digite um sobrenome valido.
+                                    </div>
+                                </div>
+
+                                <div class="col-12">
+                                    <!-- <label for="email" class="form-label">Email</label> -->
+                                    <input type="email" class="form-control" id="email" placeholder="seu@email.com">
+                                    <div class="invalid-feedback">
+                                        Email incorreto, por favor faça as devidas alterações.
+                                    </div>
+                                </div>
+
+                                <div class="col-12">
+                                    <!-- <label for="textarea" class="form-label">Assunto</label> -->
+                                    <input type="textarea" class="form-control" id="textarea"
+                                        placeholder="Digite o assunto">
+                                    <div class="invalid-feedback">
+                                        Digite um assunto.
+                                    </div>
+                                </div>
+
+                                <div class="button">
+                                    <button>Enviar</button>
+                                </div>
+                            </div>
+                    </div>
+
+
+                    <!-- Imagem de localização -->
+                    <div class="col-md-12 col-lg-6 d-flex justify-content-center text-center">
+                        <div class="imagem-map">
+                            <img src="img/Map.svg" width="500vw">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- AQUI VAI SER O SOBRE NÓS -->
+    <div id="sobreNos" class="block">
+        <div class="container">
+            <h2 class="title text-center mt-5 mb-5 h2-our text-uppercase">Sobre Nós</h2>
+
+
+            <div class="owl-carousel owl-theme owl-loaded">
+                <div>
+                    <div class="nos">
+                        <img src="img/alana.jpg" style="width: 200px; height: 200px;" />
+                        <div class="nos-texto pl-3">
+                            <p class="mx-4 mt-2">
+                                Com uso de tecnologias como HTML, CSS, JavaScript, jQuery e Bootstrap, realizou a
+                                criação, desenvolvimento da página de cardápio.
+                            </p>
+                            <p class="name mx-4">
+                                <span>Alana Dias</span> / FullStack Developer
+
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="nos">
+                        <img src="img/edu.jpg" style="width: 200px; height: 200px;" />
+                        <div class="nos-texto pl-3">
+                            <p class="mx-4 mt-2">
+                                Com uso de tecnologias como HTML, CSS, JavaScript, jQuery e Bootstrap, realizou a
+                                criação, desenvolvimento da página index.
+                            </p>
+                            <p class="name mx-4">
+                                <span>Eduardo Santos</span> / FullStack Developer
+
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="nos">
+                        <img src="img/image 50.png" style="width: 200px; height: 200px;" />
+                        <div class="nos-texto pl-3">
+                            <p class="mx-4 mt-2">
+                                Com uso de tecnologias como HTML, CSS, JavaScript, jQuery e Bootstrap, realizou a
+                                criação, desenvolvimento e validação do formulário de contato.
+                            </p>
+                            <p class="name mx-4">
+                                <span>Emilia Lima</span> / FullStack Developer
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="nos">
+                        <img src="img/glenda-sorrindo 1.png" style="width: 200px; height: 200px;" />
+                        <div class="nos-texto pl-3 ">
+                            <p class="mx-4 mt-2">
+                                Com uso de tecnologias comoHTML, CSS, JavaScript, jQuery e Bootstrap, realizou a
+                                criação, desenvolvimento da página de eventos.
+                            </p>
+                            <p class="name mx-4">
+                                <span>Glenda Borges</span> / FullStack Developer
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--//DEPOIMENTOS-->
+
+    <!-- INÍCIO DO FOOTER -->
+    <footer class="acessibilidade2">
+        <div class="container-fluid bg-dark text-white text-center">
+            <!-- FOOTER DETAILS -->
+            <div class="col-12">
+                <div class="row">
+                    <div class="col-12 col-md-5">
+                        <h5 class="text-white mt-3">Conecte-se conosco e surpreenda-se!</h5>
+                        <div class="mt-3 icons1">
+                            <a href=""><i class="bi bi-facebook text-decoration-none text-white mx-2"></i></a>
+                            <a href=""><i class="bi bi-instagram text-decoration-none text-white"></i></a>
+                            <a href=""><i class="bi bi-youtube text-decoration-none text-white mx-2"></i></a>
+                            <a href=""><i class="bi bi-twitter text-decoration-none text-white"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3">
+                        <h5 class="my-2">Formas de contato</h5>
+                        <p class="text-white">(99)9999-9999</p>
+                        <p class="text-white">contato@g1events.com</p>
+                    </div>
+                    <div class="col-12 col-md-4 mt-2">
+                        <div class="row">
+                            <div class="col-12 my-2">
+                                <ul class="list-unstyled">
+                                    <li><a href="#" class="text-white text-decoration-none">Trabalhe Conosco</a>
+                                    </li>
+                                    <li><a href="#" class="text-white text-decoration-none">Condições Legais</a>
+                                    </li>
+                                    <li><a href="#" class="text-white text-decoration-none">Política de
+                                            privacidade</a>
+                                    </li>
+                                    <li><a href="#" class="text-white text-decoration-none">Política de
+                                            Cookies</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bg-secondary container-fluid text-white text-center py-2">
+            <div class="row">
+                <div class="col-12">
+                    <span class="mx-5"> Todos os direitos reservados &copy; G1 Clube 2021</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--FIM DO FOOTER-->
+
+
+
+
+
+
+    <!-- VLIBRAS-->
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <!-- JS DO VLIBRAS -->
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+    <!-- FIM DO VLIBRAS-->
+    <!-- JavaScript Pacote com Popper Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+    <!--JavaScript Externo e jQuery-->
+
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/scripts.js"></script>
+
+
+    <body>
+
+</html>

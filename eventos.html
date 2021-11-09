@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Ícones Bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css">
+    <!-- CSS Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!--Fontes do Google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2? família=Cairo:wght@300;400;600&display=swap" rel="stylesheet">
+    <!--CSS Externo-->
+    <link rel="stylesheet" href="css/eventos.css">
+     <!--Ícnone da barra de navegação-->
+     <link rel="shortcut icon" type="/imagex/png" href="img/icon.png">
+    <title>G1 Club</title>
+</head>
+
+<body>
+    <!--INÍCIO DO NAVBAR-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><img src="img/logo3.png" ></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav m-auto  mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active acessibilidade" href="index.html">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active acessibilidade" href="eventos.html">Eventos</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active acessibilidade" href="#" id="navbarDropdown"
+                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Cardápio
+                        </a>
+                        <ul class="dropdown-menu bg-dark acessibilidade" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item text-warning" href="cardapio.html#nacional">Buffet Nacional</a></li>
+                            <li><a class="dropdown-item text-warning" href="cardapio.html#europeu">Buffet Mediterrâneo</a></li>
+                            <li><a class="dropdown-item text-warning" href="cardapio.html#bebidas">Bebidas</a></li>
+                        </ul </li> <li class="nav-item">
+                        <a class="nav-link active acessibilidade" href="index.html">Localização</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active acessibilidade" href="formulario.html">Agende seu Evento</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="d-flex">
+                <!--INÍCIO DOS ÍCONES ACESSIBILIDADE-->
+                <span class="text-white fs-4 text-warning zoom" onclick="fonte('a')"><i
+                        class="bi bi-zoom-in"></i></span>
+                <span class="text-white fs-4 zoom" onclick="fonte('d')"><i class="bi bi-zoom-out"></i></span>
+                <!--FIM DOS ÍCONES ACESSIBILIDADE-->
+            </div>
+        </div>
+    </nav>
+    <!--FIM DO NAVBAR-->
+
+    <!-- BANNER PRINCIPAL -->
+    <div class="container-fluid-md">
+        <section class="fundo">
+            <div class="container-fundo  d-flex flex-column align-items-center justify-content-center">
+                <p class=" text-light p1 ">SEU EVENTO NA NOSSA CASA</p>
+                <p  class="text-light text-center p2">Para momentos inesquecíveis, e para surpreender e garantir a satisfação oferecemos um serviço de qualidade.</p>
+                <a href="#" class="btn-pacotes">SAIBA MAIS SOBRE OS EVENTOS</a>
+            </div>
+        </section>
+    </div>
+    <!-- FIM DO BANNER PRINCIPAL -->
+
+    <div class="container-sm parte2">
+        <div class="container-parte2 d-flex flex-column align-items-center justify-content-center">
+            <h2 class="our-h2 text-uppercase">Os Nossos Eventos</h2>
+            <p class="paragrafo mt-4 acessibilidade">Para momentos inesquecíveis, e para surpreender e garantir a
+                satisfação oferecemos
+                um serviço de qualidade. Com salões amplos e elegantes, a o G1 Club é o local ideal para a realização de
+                Casamentos, Formaturas, Aniversários, Confraternizações e Eventos Corporativos. </p>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row linha  text-light">
+            <div class="col-6 bg-1">
+                <!-- <img src="img/aniversario.png" style="width: 680px;" > -->
+            </div>
+            <div class="col-6 bg-cor">
+                <div class="pacote d-flex flex-column align-items-center justify-content-center">
+                    <h1 class="our-h2">Aniversário</h1>
+                    <p class="text-pacote acessibilidade">
+                        Evento para celebrar o ano vindouro com muito sucesso, saúde e alegria com seus amigos e familiares para mais um aniversário do seu nascimento.
+
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row linha text-light">
+            <div class="col-6  bg-cor">
+                <div class="pacote d-flex flex-column align-items-center justify-content-center">
+                    <h1 class="our-h2">Casamento</h1>
+                    <p class="text-pacote acessibilidade">
+                        A união que você sempre sonhou. Nosso compromisso é tornar este momento inesquecível. E nada melhor que uma festa para celebrar a união entre as duas pessoas e uma nova família.
+                    </p>
+                </div>
+            </div>
+            <div class="col-6  bg-2">
+
+            </div>
+        </div>
+        <div class="row linha text-light">
+            <div class="col-6 bg-3">
+
+            </div>
+            <div class="col-6 bg-cor ">
+                <div class="pacote d-flex flex-column align-items-center justify-content-center">
+                    <h1 class="our-h2">Festa Temática</h1>
+                    <p class="text-pacote acessibilidade">
+                        Organizamos a festa temática na sua empresa, sítio ou lugar que você escolher. Possuímos equipe treinada que cuidará de cada detalhe para tornar o seu evento um sucesso.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row linha text-light">
+            <div class="col-6 bg-cor">
+                <div class="pacote d-flex flex-column align-items-center justify-content-center">
+                    <h1 class="our-h2">Formatura</h1>
+                    <p class="text-pacote acessibilidade">
+                        Trabalhamos com o que há de mais moderno no mercado de formaturas, para transformar o dia do formando em um dos momentos mais especiais da vida, regado a muitos sorrisos e emoções.
+                    </p>
+                </div>
+            </div>
+            <div class="col-6  bg-4">
+
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="agendamento d-flex flex-column align-items-center justify-content-center mb-3">
+            <p class="mb-5 acessibilidade p3">
+                Aqui no G1 Club prezamos pela entrega de um serviço de qualidade que surpreenda e proporcione uma experiência incrível para os nosso clientes.
+                Quer fazer o seu evento no nosso espaço? Consute nossa tabela de valores e realize seu agendamento.
+            </p>
+            <button id="myButton" class="btn-agend fw-bold" onclick="mostrarModal()">Consulte a nossa tabela de valores</button>
+        </div>
+    </div>
+    <!-- INÍCIO DO FOOTER -->
+    <footer class="acessibilidade">
+        <div class="container-fluid bg-dark text-white text-center">
+            <!-- FOOTER DETAILS -->
+            <div class="col-12">
+                <div class="row">
+                    <div class="col-12 col-md-5">
+                        <h5 class="text-white mt-3 ">Conecte-se conosco e surpreenda-se!</h5>
+                        <div class="mt-3 icons1 text-footer">
+                            <a href=""><i class="bi bi-facebook text-decoration-none text-white mx-2"></i></a>
+                            <a href=""><i class="bi bi-instagram text-decoration-none text-white"></i></a>
+                            <a href=""><i class="bi bi-youtube text-decoration-none text-white mx-2"></i></a>
+                            <a href=""><i class="bi bi-twitter text-decoration-none text-white"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3">
+                        <h5 class="my-2 ">Formas de contato</h5>
+                        <p class="text-white  text-footer">(99)9999-9999</p>
+                        <p class="text-white  text-footer">contato@g1events.com</p>
+                    </div>
+                    <div class="col-12 col-md-4 mt-2">
+                        <div class="row">
+                            <div class="col-12 my-2">
+                                <ul class="list-unstyled text-footer">
+                                    <li><a href="#" class="text-white text-decoration-none">Trabalhe Conosco</a></li>
+                                    <li><a href="#" class="text-white text-decoration-none">Condições Legais</a></li>
+                                    <li><a href="#" class="text-white text-decoration-none">Política de privacidade</a>
+                                    </li>
+                                    <li><a href="#" class="text-white text-decoration-none">Política de Cookies</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bg-secondary container-fluid text-white text-center py-2">
+            <div class="row">
+                <div class="col-12 copy">
+                    <span class="mx-5"> Todos os direitos reservados &copy; G1 Clube 2021</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--FIM DO FOOTER-->
+
+    <!-- MODAL -->
+    <div id="myModal" class="modal" tabindex="-1" data-bs-backdrop="static">
+        <!-- modal-sm, modal-lg - tamanho das caixas modais -->
+        <div class=" modal-dialog">
+            <div class="modal-content">
+                <table class="table table-light table-hover">
+                    <thead>
+                        <tr>
+                            <th>Pacote</th>
+                            <th>Convidados</th>
+                            <th>Estimativa do valor</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">Aniversário</th>
+                            <td>50 pessoas</td>
+                            <td>R$2.650</td>
+
+                        </tr>
+                        <tr>
+                            <th scope="row">Casamento</th>
+                            <td>50 pessoas</td>
+                            <td>R$5.200</td>
+
+                        </tr>
+                        <tr>
+                            <th scope="row">Festa Temática</th>
+                            <td>50 pessoas</td>
+                            <td>R$3.250</td>
+
+                        </tr>
+                        <tr>
+                            <th scope="row">Formatura</th>
+                            <td>50 pessoas</td>
+                            <td>R$3.000</td>
+
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="modal-footer">
+                    <p class="w-50">Entre em contato para
+                         realizar seu agendamento.
+                    </p>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                    <a href="formulario.html" class="btn btn-dark">Agendar</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+
+    <!--Integrando o V-Libras-->
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app')
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+    <script src="js/scripts.js"></script>
+    <script>
+        function mostrarModal() {
+            new bootstrap.Modal(document.getElementById("myModal")).show();
+        }
+    </script>
+</body>
+
+</html>
